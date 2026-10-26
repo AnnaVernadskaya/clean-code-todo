@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.matrix-image {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.matrix-image img {
   width: 100%;
 }
-.aaa .more_inf {
+.matrix-image .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .matrix-image {
     text-align: center;
   }
 }
@@ -40,7 +40,8 @@ ul {
   padding: 0px;
 }
 li,
-h3 {
+h1,
+h2 {
   list-style: none;
 }
 input,
@@ -60,7 +61,8 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+h1,
+h2,
 label[for='new-task'] {
   color: #333;
   font-weight: 700;
